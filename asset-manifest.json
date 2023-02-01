@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/hair-style/static/css/main.bd91688b.css",
-    "main.js": "/hair-style/static/js/main.436faf03.js",
+    "main.js": "/hair-style/static/js/main.c8c12bb9.js",
     "index.html": "/hair-style/index.html",
     "main.bd91688b.css.map": "/hair-style/static/css/main.bd91688b.css.map",
-    "main.436faf03.js.map": "/hair-style/static/js/main.436faf03.js.map"
+    "main.c8c12bb9.js.map": "/hair-style/static/js/main.c8c12bb9.js.map"
   },
   "entrypoints": [
     "static/css/main.bd91688b.css",
-    "static/js/main.436faf03.js"
+    "static/js/main.c8c12bb9.js"
   ]
 }
