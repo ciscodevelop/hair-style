@@ -1,0 +1,32 @@
+.app {
+    height: 100vh;
+   overflow-x: hidden;
+   scrollbar-width: none;
+   &::-webkit-scrollbar {
+     display: none;
+   }
+    .main {
+      width: 100%;   
+      height: calc(100vh - 0px);
+      //background-color: #e6a845;
+      position: relative;
+ //top: 50px;
+      scroll-behavior:smooth;
+      scroll-snap-type: y mandatory;
+      transition: all 2s ease;
+      scrollbar-width: none;
+      &::-webkit-scrollbar {
+          display: none;
+        }
+      > * {
+        width: 100vw;
+        height: calc(100vh - 0px);
+        scroll-snap-align: start;
+        scrollbar-width: none;
+        &::-webkit-scrollbar {
+            display: none;
+          }
+      }
+    }
+  }
+  

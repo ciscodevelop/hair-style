@@ -1,0 +1,82 @@
+@import '../sass/global.scss';
+.home {
+    width: 100vw;
+  // height: 90%!important;
+  display: flex;
+  justify-content: center;
+  background:  linear-gradient(41deg, rgb(8, 6, 2) 0%, rgb(0, 0, 0) 0%, rgb(205, 164, 52) 66%, rgb(0, 0, 0) 100%);
+  position: relative;
+  //flex-wrap: wrap;
+  @include mobile{
+    display: inline-block;
+
+  }
+  .left {
+    flex:6;
+    z-index: 100;
+    position: relative;
+    top: -5px;
+    left: 0px;
+    .imgBG{
+    img{width: 100%;
+
+    }
+    }
+
+  }
+  .right {
+    flex: 3;
+    //width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @include mobile{
+        height: 300px;
+        
+      }
+    .card-main {
+      height: 150px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      justify-content: space-between;
+      z-index: 1012;
+      .header {
+        h5 {
+            font-weight: 600;
+          font-size: 32px;
+          color: #ffffff;
+        }
+      }
+      .body {
+        p {
+            text-align: left;
+            font-size: 22px;
+            max-width: 500px;
+          text-align: center;
+          color: #ffd560;
+          font-weight: 600;
+          left: 0;
+          position: relative;
+         // text-align: justify;
+        }
+      }
+      .footer {
+        margin: 10px;
+        a {
+          // border: none;
+          text-decoration: none;
+          color: aliceblue;
+          padding: 10px;
+          border: 1px solid #cda434;
+          border-radius: 10px;
+          transition: all .5s ease;
+          &:hover {
+            background: #cda434;
+          }
+        }
+      }
+    }
+  }
+}
